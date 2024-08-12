@@ -1,10 +1,11 @@
 {
   "name": "lighthouse-report-svg",
   "version": "1.0.0",
-  "type": "module",
-  "main": "src/app.js",
+  "main": "dist/app.js",
   "scripts": {
-    "start": "node src/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc --build tsconfig.json",
+    "start": "node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +14,11 @@
   "description": "",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   }
 }

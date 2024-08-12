@@ -1,4 +1,4 @@
-export default function generateSVG(stats, pwa) {
+export default function generateSVG(stats: number[], pwa: number): string {
   const data = stats.map((value) => {
     const dataArc = 351.858 * (value / 100);
     const classValue =
