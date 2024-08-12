@@ -1,11 +1,11 @@
 {
   "name": "lighthouse-report-svg",
   "version": "1.0.0",
-  "main": "dist/app.js",
+  "main": "public/app.js",
   "scripts": {
     "dev": "nodemon src/app.ts",
     "build": "tsc --build tsconfig.json",
-    "start": "node dist/app.js",
+    "start": "node public/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
