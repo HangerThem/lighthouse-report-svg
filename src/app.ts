@@ -1,7 +1,7 @@
 import express from "express";
 import generateSVG from "./generateSVG";
 const app: express.Application = express();
-const port = 3000;
+const port = 3005;
 
 app.get("/", (req: express.Request, res: express.Response) => {
   const { perf = "0", acc = "0", best = "0", seo = "0", pwa = "0" } = req.query;
@@ -24,6 +24,4 @@ app.get("/", (req: express.Request, res: express.Response) => {
   res.send(svg);
 });
 
-app.listen(port, () => {
-  console.log(`SVG generator app listening at http://localhost:${port}`);
-});
+export default app;
