@@ -4,7 +4,6 @@
 ![GitHub Forks](https://img.shields.io/github/forks/hangerthem/lighthouse-report-svg)
 ![GitHub license](https://img.shields.io/github/license/HangerThem/lighthouse-report-svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/HangerThem/lighthouse-report-svg)
-![CodeFactor Grade](https://www.codefactor.io/repository/github/HangerThem/lighthouse-report-svg/badge)
 
 # Lighthouse Report SVG Embed
 
